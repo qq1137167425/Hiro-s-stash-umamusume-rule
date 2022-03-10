@@ -1,0 +1,21 @@
+name: 赛马娘
+desc: 赛马娘加速
+
+rule-providers:
+  umamusume: 
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  umamusume_download:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml"
+    path: ./ruleset/Ad.yaml
+    interval: 86400
+    
+rules:
+  - RULE-SET,umamusume,日本 03*
+  - RULE-SET,umamusume_download,游戏Gaming 上海-日本 02

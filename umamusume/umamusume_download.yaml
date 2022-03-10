@@ -1,0 +1,4 @@
+payload:
+  - DOMAIN,prd-storage-app-umamusume.akamaized.net
+  - DOMAIN,prd-storage-game-umamusume.akamaized.net
+  - DOMAIN,prd-storage-umamusume.akamaized.net
