@@ -17,5 +17,5 @@ rule-providers:
     interval: 86400
     
 rules:
-  - RULE-SET,umamusume,日本 03*
-  - RULE-SET,umamusume_download,游戏Gaming 上海-日本 02
+  - RULE-SET,umamusume,游戏Gaming 上海-日本 02
+  - RULE-SET,umamusume_download,日本 03*
