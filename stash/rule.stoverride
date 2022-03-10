@@ -5,14 +5,14 @@ rule-providers:
   umamusume: 
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/qq1137167425/Hiro-s-stash-umamusume-rule/main/umamusume/umamusume.yaml"
+    url: "https://cdn.jsdelivr.net/gh/qq1137167425/Hiro-s-stash-umamusume-rule@main/umamusume/umamusume.yaml"
     path: ./ruleset/umamusume.yaml
     interval: 86400
 
   umamusume_download:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/qq1137167425/Hiro-s-stash-umamusume-rule/main/umamusume/umamusume_download.yaml"
+    url: "https://cdn.jsdelivr.net/gh/qq1137167425/Hiro-s-stash-umamusume-rule@main/umamusume/umamusume_download.yaml"
     path: ./ruleset/umamusume_download.yaml
     interval: 86400
     
