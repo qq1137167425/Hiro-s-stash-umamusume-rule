@@ -1,5 +1,5 @@
-使用时要将stash/rule.stoverride中的
- - RULE-SET,umamusume,
- - RULE-SET,umamusume_download,
+使用时要将stash/rule.stoverride中的xxxxx
+ - RULE-SET,umamusume,xxxxx
+ - RULE-SET,umamusume_download,xxxxx
 
 修改成自己的节点
